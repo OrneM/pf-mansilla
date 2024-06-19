@@ -1,0 +1,303 @@
+[
+    {
+        "cantidad": 1,
+        "fechaHora": "2024-06-19 18:00",
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "celular": "123456789"
+    },
+    {
+        "cantidad": 1,
+        "fechaHora": "2024-06-20 18:00",
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "celular": "123456789"
+    },
+    {
+        "cantidad": 2,
+        "fechaHora": "2024-06-21 18:15",
+        "nombre": "María",
+        "apellido": "García",
+        "celular": "987654321"
+    },
+    {
+        "cantidad": 1,
+        "fechaHora": "2024-06-22 17:00",
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "celular": "123456789"
+    },
+    {
+        "cantidad": 2,
+        "fechaHora": "2024-06-22 17:15",
+        "nombre": "María",
+        "apellido": "García",
+        "celular": "987654321"
+    },
+    {
+        "cantidad": 3,
+        "fechaHora": "2024-06-22 17:30",
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "celular": "112233445"
+    },
+    {
+        "cantidad": 4,
+        "fechaHora": "2024-06-22 17:45",
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "celular": "223344556"
+    },
+    {
+        "cantidad": 5,
+        "fechaHora": "2024-06-22 18:00",
+        "nombre": "Pedro",
+        "apellido": "López",
+        "celular": "334455667"
+    },
+    {
+        "cantidad": 6,
+        "fechaHora": "2024-06-22 18:15",
+        "nombre": "Sofía",
+        "apellido": "González",
+        "celular": "445566778"
+    },
+    {
+        "cantidad": 7,
+        "fechaHora": "2024-06-22 18:30",
+        "nombre": "Luis",
+        "apellido": "Hernández",
+        "celular": "556677889"
+    },
+    {
+        "cantidad": 1,
+        "fechaHora": "2024-06-22 18:45",
+        "nombre": "Laura",
+        "apellido": "Díaz",
+        "celular": "667788990"
+    },
+    {
+        "cantidad": 2,
+        "fechaHora": "2024-06-22 19:00",
+        "nombre": "Jorge",
+        "apellido": "Ramírez",
+        "celular": "778899001"
+    },
+    {
+        "cantidad": 3,
+        "fechaHora": "2024-06-22 19:15",
+        "nombre": "Lucía",
+        "apellido": "Torres",
+        "celular": "889900112"
+    },
+    {
+        "cantidad": 4,
+        "fechaHora": "2024-06-22 19:30",
+        "nombre": "Martín",
+        "apellido": "Sanchez",
+        "celular": "990011223"
+    },
+    {
+        "cantidad": 5,
+        "fechaHora": "2024-06-22 19:45",
+        "nombre": "Valentina",
+        "apellido": "Martínez",
+        "celular": "001122334"
+    },
+    {
+        "cantidad": 6,
+        "fechaHora": "2024-06-22 20:00",
+        "nombre": "Diego",
+        "apellido": "Gómez",
+        "celular": "112233445"
+    },
+    {
+        "cantidad": 7,
+        "fechaHora": "2024-06-22 20:15",
+        "nombre": "Carolina",
+        "apellido": "Fernández",
+        "celular": "223344556"
+    },
+    {
+        "cantidad": 1,
+        "fechaHora": "2024-06-22 20:30",
+        "nombre": "Gabriel",
+        "apellido": "Paz",
+        "celular": "334455667"
+    },
+    {
+        "cantidad": 2,
+        "fechaHora": "2024-06-22 20:45",
+        "nombre": "Lorena",
+        "apellido": "Rojas",
+        "celular": "445566778"
+    },
+    {
+        "cantidad": 3,
+        "fechaHora": "2024-06-22 21:00",
+        "nombre": "Sebastián",
+        "apellido": "Luna",
+        "celular": "556677889"
+    },
+    {
+        "cantidad": 4,
+        "fechaHora": "2024-06-22 21:15",
+        "nombre": "Camila",
+        "apellido": "Moreno",
+        "celular": "667788990"
+    },
+    {
+        "cantidad": 5,
+        "fechaHora": "2024-06-22 21:30",
+        "nombre": "Fernando",
+        "apellido": "Castillo",
+        "celular": "778899001"
+    },
+    {
+        "cantidad": 6,
+        "fechaHora": "2024-06-22 21:45",
+        "nombre": "Valeria",
+        "apellido": "Jiménez",
+        "celular": "889900112"
+    },
+    {
+        "cantidad": 7,
+        "fechaHora": "2024-06-22 22:00",
+        "nombre": "Matías",
+        "apellido": "Silva",
+        "celular": "990011223"
+    },
+    {
+        "cantidad": 1,
+        "fechaHora": "2024-06-22 22:15",
+        "nombre": "Juliana",
+        "apellido": "Molina",
+        "celular": "001122334"
+    },
+    {
+        "cantidad": 2,
+        "fechaHora": "2024-06-22 22:30",
+        "nombre": "Ezequiel",
+        "apellido": "Ortega",
+        "celular": "112233445"
+    },
+    {
+        "cantidad": 3,
+        "fechaHora": "2024-06-22 22:45",
+        "nombre": "Victoria",
+        "apellido": "Gutiérrez",
+        "celular": "223344556"
+    },
+    {
+        "cantidad": 4,
+        "fechaHora": "2024-06-22 23:00",
+        "nombre": "Nicolás",
+        "apellido": "Ríos",
+        "celular": "334455667"
+    },
+    {
+        "cantidad": 5,
+        "fechaHora": "2024-06-22 23:15",
+        "nombre": "Romina",
+        "apellido": "Navarro",
+        "celular": "445566778"
+    },
+    {
+        "cantidad": 6,
+        "fechaHora": "2024-06-22 23:30",
+        "nombre": "Franco",
+        "apellido": "Morales",
+        "celular": "556677889"
+    },
+    {
+        "cantidad": 6,
+        "fechaHora": "2024-06-22 23:45",
+        "nombre": "Franco",
+        "apellido": "Morales",
+        "celular": "556677889"
+    },
+    {
+        "cantidad": 4,
+        "fechaHora": "2024-06-23 18:45",
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "celular": "223344556"
+    },
+    {
+        "cantidad": 5,
+        "fechaHora": "2024-07-24 19:00",
+        "nombre": "Pedro",
+        "apellido": "López",
+        "celular": "334455667"
+    },
+    {
+        "cantidad": 6,
+        "fechaHora": "2024-07-25 19:15",
+        "nombre": "Sofía",
+        "apellido": "González",
+        "celular": "445566778"
+    },
+    {
+        "cantidad": 7,
+        "fechaHora": "2024-07-26 19:30",
+        "nombre": "Luis",
+        "apellido": "Hernández",
+        "celular": "556677889"
+    },
+    {
+        "cantidad": 8,
+        "fechaHora": "2024-07-27 19:45",
+        "nombre": "Elena",
+        "apellido": "Jiménez",
+        "celular": "667788990"
+    },
+    {
+        "cantidad": 1,
+        "fechaHora": "2024-07-28 20:00",
+        "nombre": "Miguel",
+        "apellido": "Ruiz",
+        "celular": "778899001"
+    },
+    {
+        "cantidad": 2,
+        "fechaHora": "2024-07-29 20:15",
+        "nombre": "Isabel",
+        "apellido": "Torres",
+        "celular": "889900112"
+    },
+    {
+        "cantidad": 3,
+        "fechaHora": "2024-06-30 20:30",
+        "nombre": "Roberto",
+        "apellido": "Ramírez",
+        "celular": "990011223"
+    },
+    {
+        "cantidad": 4,
+        "fechaHora": "2024-06-31 20:45",
+        "nombre": "Laura",
+        "apellido": "Flores",
+        "celular": "101112233"
+    },
+    {
+        "cantidad": 5,
+        "fechaHora": "2024-07-01 21:00",
+        "nombre": "Daniel",
+        "apellido": "Sánchez",
+        "celular": "212223344"
+    },
+    {
+        "cantidad": 6,
+        "fechaHora": "2024-07-02 21:15",
+        "nombre": "Natalia",
+        "apellido": "Castro",
+        "celular": "323334455"
+    },
+    {
+        "cantidad": 7,
+        "fechaHora": "2024-07-03 21:30",
+        "nombre": "Pablo",
+        "apellido": "Ortiz",
+        "celular": "434445566"
+    }
+]

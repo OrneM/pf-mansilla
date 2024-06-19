@@ -1,0 +1,389 @@
+* {
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* Estilos de la barra navegacion*/
+section img.logo {
+    display: flex;
+    width: 7rem;
+    height: auto;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header .navegacion {
+    background-color: #c61313;
+  }
+  header .navegacion .navbar-brand {
+    margin: 0%;
+  }
+  header .navegacion .navbar-brand img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  header .navegacion .navbar-brand img:hover {
+    box-shadow: 0px 0px 10px 0 rgba(20, 20, 20, 0.2);
+  }
+  header .navegacion .navbar-nav {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  header .navegacion .navbar-nav .nav-link {
+    color: #e9e3dc;
+    border: solid;
+    border-color: #520202;
+  }
+  header .navegacion .navbar-nav .nav-link:hover {
+    color: #eeeceb;
+    background-color: #9e0808;
+  }
+  header .navegacion .navbar-nav .active {
+    color: #eeeceb;
+    background-color: rgba(85, 4, 4, 0.5);
+  }
+  header .navegacion .navbar-toggler {
+    flex-basis: auto;
+    justify-content: flex-end;
+    margin-bottom: 3%;
+  }
+  header .navbar-expand-lg .navbar-collapse {
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+  header .navbar-expand-lg .navbar-collapse:not(.show) {
+    display: none;
+  }
+
+
+/*Estructura y estilos de reservas*/
+
+.reserva-main{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url(./assets/vista-superior-comida-deliciosa-espacio-copiar.jpg);
+  background-size: cover;
+}
+  
+.reservaTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f245458e;
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+  color: #2b2a29e0;
+  border-radius: 10px;
+  height: 75%;
+  width: 65%;
+  margin: 5%;
+  border: 1px solid rgb(120, 7, 7);
+  border-radius: 5%;
+  padding: 5%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgba(224, 29, 29, 0.841);
+  font-weight: bold;
+}
+  
+.reservaTitle {
+  margin-top: 5%;
+  border-bottom: 1px solid rgb(120, 7, 7) ;
+  color: #e9e3dc;
+  
+}
+ 
+form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  width: 90%;
+  
+  }
+
+.cantidadElegida{
+  color: #e9e3dc;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: none;
+  border-radius: 5px;
+  background-color: #d69d9d90;
+  }
+
+.cantidadElegida.visible {
+  display:flex;
+}
+
+input[type="number"] {
+  width: 90%;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: 2px solid #ee6270;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #a22424;
+}
+
+input[type="number"]:focus {
+  border-color: #f1a1a8;
+  box-shadow: 0 0 10px rgba(241, 161, 168, 0.5);
+}
+
+input[type="number"]::placeholder {
+  color: #ff7b88;
+}
+
+.form-submit {
+  width: 25%;
+  margin-left: 2%;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: 2px solid #ee6270;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #721c24;
+  background-color: #f7b8b8c8;
+  color:#790606
+}
+
+.btnElegir:hover {
+  background-color: #f3dfe0;
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+}
+  
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  
+}
+.flatpickr-disabled, .flatpickr-disabled:hover {
+  background: red !important;
+  color: white !important;
+}
+
+.calendar-button{
+  width: 25%;
+  margin-left: 2%;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: 2px solid #ee6270;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #721c24;
+  background-color: #f7b8b8c8;
+  color:#790606
+}
+
+.calendar-input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+.date-input{
+  width: 90%;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: 2px solid #ee6270;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #a22424;
+}
+
+.date-input:focus {
+  border-color: #f1a1a8;
+  box-shadow: 0 0 10px rgba(241, 161, 168, 0.5);
+}
+
+.date-input::placeholder {
+  color: #ff7b88;
+} 
+
+#datos-reservas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-left: 2%;
+  padding: 10px 15px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color:#790606
+
+}
+
+.hidden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 1em;
+  
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color:#790606
+}
+
+.form-datos {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 2%;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: 2px solid #00000000;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color:#740505
+}
+input#nombre.form-datos::placeholder {
+  color: #ff7b88;
+} 
+
+input#apellido.form-datos::placeholder {
+  color: #ff7b88;
+} 
+
+input#celular.form-datos::placeholder {
+  color: #ff7b88;
+} 
+
+.visible {
+  display: block;
+  color: #e9e3dc;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #d69d9d90;
+}
+.title-reserva{
+  margin-top: 5%;
+  border-bottom: 1px solid rgb(120, 7, 7) ;
+  color: #e9e3dc;
+
+}
+
+.btn-pizzeria {
+  background-color: #ce1414;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 4%;
+  border: 1px rgba(82, 2, 2, 0.5) solid;
+}
+
+.btn-pizzeria:hover {
+  background-color: #ad0009;
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+  color: #f7f6f4;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #ce1414;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 4%;
+  border: 1px rgba(82, 2, 2, 0.5) solid;
+}
+
+button#confirm-button{
+  align-self:center
+}
+  /*Estilos de footer*/
+.pie-pagina {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: #525151;
+    color: #eeeceb;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-top: 1px solid #5a0000;
+  }
+  .pie-pagina .contenedor-pie {
+    width: 25%;
+  }
+  .pie-pagina .contenedor-pie .titulo-pie {
+    font-size: large;
+    font-weight: 600;
+  }
+  .pie-pagina .contenedor-pie .social {
+    color: #eeeceb;
+  }
+  .pie-pagina .contenedor-pie .logo-red {
+    width: 30px;
+    height: 30px;
+  }
+  .pie-pagina .contenedor-pie .mb-1 {
+    display: flex;
+  }
+  .pie-pagina .contenedor-pie .mb-1 .tit-red {
+    margin-left: 5%;
+  }
+  
+  .copyright {
+    background-color: #525151;
+    color: #eeeceb;
+    text-align: center;
+    border-top: 1px solid #5a0000;
+    padding-top: 2%;
+    padding-bottom: 1%;
+  }
+  
+  /*Media queries*/
+
+  /* Solo visible en formato desktop*/
+  
+@media screen and (max-width: 570px) {
+
+
+  body {
+
+    display: none;
+  } 
+}
